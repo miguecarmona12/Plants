@@ -3,12 +3,12 @@ import PlantList from "./components/PlantList";
 import Cart from "./components/Cart";
 
 const plants = [
-  { id: 1, name: "Gold", price: 10000, image: "src/assets/plant1.jpg" },
-  { id: 2, name: "Jack Herer.", price: 15000, image: "src/assets/plant2.jpg" },
-  { id: 3, name: "Sour", price: 20000, image: "src/assets/plant3.jpg" },
-  { id: 4, name: "White Widow", price: 25000, image: "src/assets/plant4.jpg" },
-  { id: 5, name: "Blue Dream", price: 30000, image: "src/assets/plant5.jpg" },
-  { id: 6, name: "Plant 6", price: 35000, image: "src/assets/plant6.jpg" },
+  { id: 1, name: "Gold", price: 10000, image: "public/plant1.jpg" },
+  { id: 2, name: "Jack Herer.", price: 15000, image: "public//plant2.jpg" },
+  { id: 3, name: "Sour", price: 20000, image: "public//plant3.jpg" },
+  { id: 4, name: "White Widow", price: 25000, image: "public//plant4.jpg" },
+  { id: 5, name: "Blue Dream", price: 30000, image: "public//plant5.jpg" },
+  { id: 6, name: "Plant 6", price: 35000, image: "public//plant6.jpg" },
 ];
 
 function App() {
