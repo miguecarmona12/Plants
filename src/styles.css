@@ -1,24 +1,45 @@
-.app {
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/background.jpg"); /* Imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
   font-family: Arial, sans-serif;
+}
+
+.app {
   padding: 20px;
 }
 
 .plant-list {
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: #1d1b1b8f; /* Fondo de color sólido para la lista de plantas */
+  padding: 20px; /* Espaciado interno opcional */
+  border-radius: 8px; /* Bordes redondeados opcional */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.781); /* Sombra sutil opcional */
 }
 
 .plant-item {
-  border: 1px solid #917171;
+  border: 1px solid #a57474f6;
   padding: 10px;
-  width: 150px;
+  width: 160px; /* Ajustado para incluir margen y padding */
   text-align: center;
+  margin: 10px; /* Margen alrededor de cada item */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.521); /* Sombra sutil */
+  border-radius: 8px; /* Bordes redondeados */
+  overflow: hidden; /* Asegura que los bordes redondeados se apliquen a la imagen también */
 }
 
 .plant-item img {
-  max-width: 100%;
-  height: auto;
+  width: 150px; /* Tamaño uniforme para las imágenes */
+  height: 150px; /* Mantiene las imágenes cuadradas */
+  object-fit: cover; /* Asegura que las imágenes llenen el contenedor sin distorsionarse */
+  margin: 10px 0; /* Margen arriba y abajo */
 }
 
 .cart {
@@ -29,4 +50,34 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+/* Estilos para la pantalla de bienvenida */
+.welcome-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.445
+  ); /* Fondo blanco con opacidad para contraste */
+  text-align: center;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #b65555;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #45a049;
 }
