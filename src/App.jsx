@@ -11,7 +11,7 @@ const plants = [
   { id: 3, name: "Sour", price: 20000, image: "./plant3.jpg" },
   { id: 4, name: "White Widow", price: 25000, image: "./plant4.jpg" },
   { id: 5, name: "Blue Dream", price: 30000, image: "./plant5.jpg" },
-  { id: 6, name: "Plant 6", price: 35000, image: "./plant6.jpg" },
+  { id: 6, name: "Black Domina", price: 35000, image: "./plant6.jpg" },
 ];
 
 function App() {
