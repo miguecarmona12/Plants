@@ -1,0 +1,32 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.plant-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.plant-item {
+  border: 1px solid #917171;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.plant-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
